@@ -1,0 +1,10 @@
+For information on how to use this, go to:
+https://community.jboss.org/docs/DOC-15538
+
+To run the benchmark
+
+1. Download the latest Grinder bits. As of this writing, the latest version is 3.7.1
+2. Optional is the Grinder Console.
+3. Start JBoss Data Grid
+4. Update your environment variables in bin/setGrinderEnv.sh
+5. execute bin/start*.sh depending on what benchmarks you want to run (hotrod, memcache or REST)
